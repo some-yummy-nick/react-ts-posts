@@ -5,12 +5,6 @@ import PostForm from 'components/PostForm/PostForm';
 import Posts from 'components/Posts/Posts';
 import {FetchedPosts} from 'components/FetchedPosts/FetchedPosts';
 
-//типы
-import {TypePost} from 'types/TypePost'
-
-
-let posts: TypePost[] = [];
-
 const App: React.FC = () => {
     return (
         <div className="container pt-3">

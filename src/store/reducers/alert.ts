@@ -4,7 +4,7 @@ const initialState = {
     alert: null
 };
 
-export default (state = initialState, action: any) => {
+export const alert = (state = initialState, action: any) => {
     switch (action.type) {
         case SHOW_ALERT:
             return {...state, alert: action.payload};
@@ -13,4 +13,6 @@ export default (state = initialState, action: any) => {
         default:
             return state;
     }
-}
+};
+
+export default alert;

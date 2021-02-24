@@ -4,7 +4,7 @@ const initialState = {
     loader: false,
 };
 
-export default (state = initialState, action: any) => {
+export const loader = (state = initialState, action: any) => {
     switch (action.type) {
         case SHOW_LOADER:
             return {...state, loader: true};
@@ -13,4 +13,6 @@ export default (state = initialState, action: any) => {
         default:
             return state;
     }
-}
+};
+
+export default loader;

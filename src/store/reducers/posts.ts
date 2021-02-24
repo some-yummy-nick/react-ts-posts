@@ -5,7 +5,7 @@ const initialState = {
     fetchedPosts: []
 };
 
-export default (state = initialState, action: any) => {
+export const posts = (state = initialState, action: any) => {
     switch (action.type) {
         case CREATE_POST:
             return {...state, posts: [...state.posts, action.payload]};
@@ -14,4 +14,6 @@ export default (state = initialState, action: any) => {
         default:
             return state;
     }
-}
+};
+
+export default posts;
