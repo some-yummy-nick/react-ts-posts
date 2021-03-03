@@ -1,3 +1,7 @@
+[По видео на youtube](https://youtu.be/G3GGXIhggGs)
+
+https://some-yummy-react-ts-posts.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
