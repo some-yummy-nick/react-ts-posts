@@ -1,3 +1,4 @@
+![screenshot](https://github.com/some-yummy-nick/react-ts-posts/blob/master/react-ts-posts.png)
 [По видео на youtube](https://youtu.be/G3GGXIhggGs)
 
 https://some-yummy-react-ts-posts.netlify.app
